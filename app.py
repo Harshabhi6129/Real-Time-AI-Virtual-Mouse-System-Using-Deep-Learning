@@ -1,7 +1,7 @@
 import cv2
 import streamlit as st
 from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
-from handtracking_module import HandDetector
+from HandTrackingModule import HandDetector
 
 # Example transformer class
 class HandTrackingTransformer(VideoTransformerBase):
