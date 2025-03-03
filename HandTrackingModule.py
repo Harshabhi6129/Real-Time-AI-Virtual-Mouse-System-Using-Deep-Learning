@@ -1,8 +1,9 @@
+# HandTrackingModule.py
 import cv2
 import mediapipe as mp
 import math
 
-class handDetector():
+class HandDetector:
     def __init__(self, mode=False, maxHands=2, detectionCon=0.5, trackCon=0.5):
         self.mode = mode
         self.maxHands = maxHands
@@ -18,7 +19,7 @@ class handDetector():
         self.mpDraw = mp.solutions.drawing_utils
         self.tipIds = [4, 8, 12, 16, 20]
 
-        # Event handling variables (unchanged)
+        # Add event handling variables
         self.mouse_position = (0, 0)
         self.mouse_down = False
         self.mouse_button = None
