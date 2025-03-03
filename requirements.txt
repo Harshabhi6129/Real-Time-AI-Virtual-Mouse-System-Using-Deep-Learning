@@ -3,5 +3,5 @@ streamlit-webrtc==0.45.0
 aiortc==1.5.0
 av==10.0.0
 opencv-python-headless==4.8.0.76
-mediapipe==0.10.0  # or a version that is compatible with Python 3.10
+mediapipe==0.9.1.0
 numpy==1.21.6
