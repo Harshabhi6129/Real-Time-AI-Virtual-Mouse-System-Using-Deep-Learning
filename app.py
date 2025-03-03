@@ -1,7 +1,7 @@
 import cv2
 import streamlit as st
 from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
-from handtracking_module import HandDetector  # Ensure this matches your file/class names
+from HandTrackingModule import HandDetector  # Ensure this matches your file/class names
 
 class HandTrackingTransformer(VideoTransformerBase):
     def __init__(self):
